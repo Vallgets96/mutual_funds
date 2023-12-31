@@ -1,32 +1,62 @@
 import React from 'react';
 import '../Style.css'
-import logo from '../img/new-logo.jpg'
+import logo from '../img/logo.png'
 import  { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Home = () => {
  
+const Home = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      offset: 100,    // Offset (in px) from the original trigger point
-      easing: 'ease-in-out', // Easing function for the animation
-      // Add more configuration options as needed
+      duration: 1000,
+      offset: 100,
+      easing: 'ease-in-out',
     });
 
-    // Optionally, you can refresh AOS whenever new elements are added dynamically
     AOS.refresh();
+
+    const header = document.getElementById('header');
+    const navbar = document.getElementById('navbar');
+
+    const handleScroll = () => {
+      const scrollY = window.scrollY || window.pageYOffset;
+      if (scrollY > header.offsetHeight) {
+        navbar.classList.add('sticky-top');
+      } else {
+        navbar.classList.remove('sticky-top');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
 
     // Clean up AOS on component unmount
     return () => {
-      AOS.refreshHard(); // Reset AOS to initial state
+      AOS.refreshHard();
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, []); // Empty dependency array ensures it runs once on mount
+  }, []); 
 
-   
+  const on = (event, selector, callback) => {
+    document.addEventListener(event, function (e) {
+      const target = e.target.closest(selector);
+      if (target) {
+        callback.call(target, e);
+      }
+    });
+  };
+  
+  on('click', '.mobile-nav-toggle', function (e) {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.toggle('navbar-mobile');
+    this.classList.toggle('bi-list');
+    this.classList.toggle('bi-x');
+  });
+
+  
   return (
     <>
+    
      <section id="topbar" className="d-flex align-items-center">
     <div className="container d-flex justify-content-center justify-content-md-between">
       <div className="contact-info d-flex align-items-center">
@@ -41,17 +71,17 @@ const Home = () => {
       </div>
     </div>
   </section>
-  <header id="header" className="d-flex align-items-center">
+  <header id="header" className="d-flex align-items-center sticky-top">
     <div className="container d-flex align-items-center justify-content-between">
       <h1 className="logo"><a href="#hero"><img className="logo" src={logo} /></a></h1>
       {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>*/}
       <nav id="navbar" className="navbar">
         <ul>
-          <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a className="nav-link scrollto" href="#about">About</a></li>
-          <li><a className="nav-link scrollto" href="#services">Services</a></li>
-          <li><a className="nav-link scrollto " href="#Gallery">Gallery</a></li>
-          <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a className="nav-link scrollto active" href="#hero">HOME</a></li>
+          <li><a className="nav-link scrollto" href="#about">ABOUT</a></li>
+          <li><a className="nav-link scrollto" href="#services">SERVICES</a></li>
+          <li><a className="nav-link scrollto " href="#Gallery">GALLERY</a></li>
+          <li><a className="nav-link scrollto" href="#contact">CONTACT</a></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle" />
       </nav>
@@ -59,12 +89,12 @@ const Home = () => {
   </header>
   <section id="hero" className="d-flex align-items-center">
     <div className="container" data-aos="zoom-out" data-aos-delay={100}>
-      <h1>Welcome to <span>MR Distributors</span></h1>
+      <h1>Welcome to <span>MR DISTRIBUTION</span></h1>
       <h2>
         Your Path to Financial Success Starts Here.
       </h2>
       <div className="d-flex">
-        <a href="#about" className="btn-get-started scrollto">Get Started</a>
+        <a href="#contact" className="btn-get-started scrollto">Get Started</a>
         <a href="https://youtu.be/PbldLCsspgE?si=Fqr4ktdcEmXtbgXk" className="glightbox btn-watch-video"><i className="bi bi-play-circle" /><span>Watch Video</span></a>
       </div>
     </div>

@@ -37,10 +37,10 @@ const Footer = () => {
             <Col className='foot-col col-12 col-md-6 col-lg-3 text-md-left'>
               <h6 className="mt-5 foot-link-head">Links</h6>
               <ul>
-                <li><a className='foot-links' href="/">Home</a></li>
-                <li><a className='foot-links' href="/">About us</a></li>
-                <li><a className='foot-links' href="/">Services</a></li>
-                <li><a className='foot-links' href="/">Contact us</a></li>
+                <li><a className='foot-links' href="#hero">Home</a></li>
+                <li><a className='foot-links' href="#about">About us</a></li>
+                <li><a className='foot-links' href="#services">Services</a></li>
+                <li><a className='foot-links' href="#contact">Contact us</a></li>
               </ul>
             </Col>
             <Col className='foot-col col-12 col-md-6 col-lg-3'>

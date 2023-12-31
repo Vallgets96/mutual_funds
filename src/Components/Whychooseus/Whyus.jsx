@@ -5,7 +5,10 @@ const Whyus = () => {
     <div>
          <section id="featured-services" className="featured-services">
   <div className="container" data-aos="fade-up">
-    <h4 className='text-center mb-5'>Why Choose Us</h4>
+  <div className="section-title">
+      <h2>WHY CHOOSE US</h2>
+      <h3>Why <span>Choose Us</span></h3>
+    </div>
     <div className="row">
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay={100}>

@@ -64,10 +64,16 @@ const Partner = () => {
 
   return (
     <div>
+      <div>
+     
+      </div>
         <section>
       <Container fluid className='partner-contain'>
         <div className="partner-inner-contain">
-    <h2 className='text-center mb-5'> Our Parnters</h2>
+        <div className="section-title">
+      <h2>Partners</h2>
+      <h3>Our <span> Partners</span></h3>
+    </div>
     <Slider {...settings}>
       <div className='partner-box'>
            <img className='partner-logo' src={hdfc} alt="" srcset="" />      

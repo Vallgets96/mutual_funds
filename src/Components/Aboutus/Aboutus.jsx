@@ -18,7 +18,7 @@ const Aboutus = () => {
         <img src={founder} className="img-fluid founder" alt />
       </div>
       <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay={100}>
-        <h3>Our Mission and Vision</h3>
+        <h3>OUR MISSION AND VISION</h3>
         <p className>
           Our mission is to help investors achieve their financial goals by utilizing prudent investment strategies and an unwavering commitment to excellence. 
           Three key pillars that define our mission are Financial Empowerment, Expert Advice, Trust, and Transparency.
@@ -30,7 +30,7 @@ const Aboutus = () => {
           <li>
             <img className="ceo" src={ceo} />
             <div>
-              <h5>Our Beloved Founder / R.Mohanraj, B.Com	</h5>
+              <h4>Our Beloved Founder / R.Mohanraj, B.Com	</h4>
               <p>
                 Our founder Mr. Mohanraj has more than 20 years of expertise in the mutual funds and investment fields. He has helped in elevating the financial lifestyle of many clients throughout his journey</p>
             </div>
@@ -38,7 +38,7 @@ const Aboutus = () => {
           <li>
             <img className="ceo" src={dir} />
             <div>
-              <h5>Our Director / Shrinidhi M R, BBA.</h5>
+              <h4>Our Director / Shrinidhi M R, BBA.</h4>
               <p>Our Next-gen Director Shrinidhi M R has been in this field for more than 2 years.⁠ Both Mr. Mohanraj and Ms.Shrinidhi are AMFI-registered Mutual Fund distributors. Shrinidhi has also completed a Certified Retirement Goal planner and is also pursuing her CFP(certified Financial planner).
               </p>
             </div>
