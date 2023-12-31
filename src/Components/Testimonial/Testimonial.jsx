@@ -95,7 +95,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div>
+    <div className='overflow-hidden'>
   <div className="section-title new">
 <h2>Clients</h2>
       <h3>Our <span>Testimonials</span></h3>

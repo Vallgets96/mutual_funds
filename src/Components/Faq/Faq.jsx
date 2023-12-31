@@ -10,7 +10,7 @@ const Faq = () => {
       <h2>F.A.Q</h2>
       <h3>Frequently Asked <span>Questions</span></h3>
     </div>
-    <div className="row justify-content-center">
+    <div className="section row justify-content-center ">
       <div className="col-xl-10">
         <ul className="faq-list">
           <li>

@@ -33,7 +33,7 @@ const Footer = () => {
             <Col className='foot-col col-12 col-md-6 col-lg-3'>
               {/* <img className='footer-logo' src={logo} alt="" srcset="" /> */}
               <h5 className='mt-5 company-name'>MR DISTRIBUTION SERVICES.</h5>
-              <p className='footer-para'>Mutual Funds is a trusted investment management firm dedicated to helping investors achieve their financial goals.With a commitment to transparency, innovation, and excellence, we offer a range of mutual funds designed to meet the diverse needs of our clients.</p></Col>
+              <p className='footer-para'>Our mission is to help investors achieve their financial goals by utilizing prudent investment strategies and an unwavering commitment to excellence.</p></Col>
             <Col className='foot-col col-12 col-md-6 col-lg-3 text-md-left'>
               <h6 className="mt-5 foot-link-head">Links</h6>
               <ul>

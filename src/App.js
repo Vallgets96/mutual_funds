@@ -11,17 +11,18 @@ import Footer from './Components/Footer/Footer';
 import Testimonials from './Components/Testimonial/Testimonial';
 
 
+
 function App() {
   return (
-    <div>
-    <Home />
+    <div className='app'>
+    <Home/>
     <Whyus />
     <Aboutus />
     <Happyclients />
     <Service />
     <Partner />
     <Faq />
-    <Testimonials/>
+    <Testimonials />
     <Contactus />
     <Footer />
     </div>

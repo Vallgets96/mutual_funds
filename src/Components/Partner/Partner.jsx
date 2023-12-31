@@ -75,7 +75,7 @@ const Partner = () => {
       <h3>Our <span> Partners</span></h3>
     </div>
     <Slider {...settings}>
-      <div className='partner-box'>
+      <div className='partner-box '>
            <img className='partner-logo' src={hdfc} alt="" srcset="" />      
            </div>
       <div className='partner-box'>

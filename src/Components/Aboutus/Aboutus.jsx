@@ -13,7 +13,7 @@ const Aboutus = () => {
       <h3>Find Out More <span>About Us</span></h3>
       <p>We have been in the mutual fund distribution business since 2000.</p>
     </div>
-    <div className="row">
+    <div className="row mt-5">
       <div className="col-lg-6 align-content-center justify-content-center text-center" data-aos="fade-right" data-aos-delay={100}>
         <img src={founder} className="img-fluid founder" alt />
       </div>
@@ -29,7 +29,7 @@ const Aboutus = () => {
         <ul>
           <li>
             <img className="ceo" src={ceo} />
-            <div>
+            <div className='cont'>
               <h4>Our Beloved Founder / R.Mohanraj, B.Com	</h4>
               <p>
                 Our founder Mr. Mohanraj has more than 20 years of expertise in the mutual funds and investment fields. He has helped in elevating the financial lifestyle of many clients throughout his journey</p>
@@ -37,8 +37,8 @@ const Aboutus = () => {
           </li>
           <li>
             <img className="ceo" src={dir} />
-            <div>
-              <h4>Our Director / Shrinidhi M R, BBA.</h4>
+            <div >
+              <h4 className='cont'>Our Director / Shrinidhi M R, BBA.</h4>
               <p>Our Next-gen Director Shrinidhi M R has been in this field for more than 2 years.⁠ Both Mr. Mohanraj and Ms.Shrinidhi are AMFI-registered Mutual Fund distributors. Shrinidhi has also completed a Certified Retirement Goal planner and is also pursuing her CFP(certified Financial planner).
               </p>
             </div>
