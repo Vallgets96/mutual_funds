@@ -443,7 +443,7 @@ body {
     top: 15px;
     right: 15px;
   }
-  
+ 
   .navbar-mobile ul {
     display: block;
     position: absolute;
@@ -526,7 +526,7 @@ body {
     width: 100%;
     height: 75vh;
     background: url("./img/hero-bg.jpg") top left;
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
   }
   
@@ -633,11 +633,17 @@ body {
     #hero .btn-watch-video {
       font-size: 13px;
     }
+   
   }
   
   @media (max-height: 500px) {
+    
     #hero {
-      height: 120vh;
+      width: 100%;
+      /* height: 120vh; */
+      background: url("../Components/img/Hero2.jpg") top left;
+      background-size: 100% 100%;
+      position: relative;
     }
   }
   
@@ -879,6 +885,25 @@ body {
     .founder{
       height: 50vh;
       width: 40vh;
+    }
+    .inner-con{
+      margin: 0 auto;
+      width: 85%;
+      
+    }
+    .about .content h3{
+      font-size: 22px;
+      margin-top: 5px;
+      text-align: center;
+
+    }
+    .inner-con p{
+      font-size: 15px;
+      text-align: center;
+    }
+    .about .content ul p{
+      margin-left: 0;
+     
     }
   }
   /*--------------------------------------------------------------
@@ -1484,6 +1509,14 @@ body {
     display: none;
     transition: 0.6s;
   }
+  @media (max-width: 576px){
+    .faq .faq-list .question{
+      font-size: 16px;
+    }
+    .collapse{
+      font-size: 14px;
+    }
+  }
   
   /*--------------------------------------------------------------
   # Contact
@@ -1736,7 +1769,7 @@ list-style: none;
          .foot-links{
             margin-left: 0;
          }
-         .slick-slide > div {
+         .partner-box {
             margin: 0 10px;
             width: 100%;
             text-align: center;
@@ -1750,7 +1783,7 @@ list-style: none;
          .foot-links{
             margin-left: 0;
          }
-         .slick-slide > div {
+         .partner-box {
             margin: 0 10px;
             width: 100%;
             text-align: center;
@@ -1792,13 +1825,14 @@ list-style: none;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
 }
 .box{
-  border: 1px solid rgb(220, 220, 220);
-  box-shadow: 0px 4px 8px #a8a7a7;
-  border-radius: 5px;
+  border-top: 2px solid rgb(138, 138, 138);
+  /* height: 320px; */
+  border-radius: 10px;
   margin-top: 45px;
   padding: 28px;
-  height: 280px;
+  
   margin-top: 60px;
+
 }
 .wrapper .box i.quote {
   font-size: 20px;
@@ -1872,13 +1906,24 @@ list-style: none;
 @media (max-width: 702px) {
   .wrapper .box {
     width: 100%;
+   
   }
 }
 @media screen and  (max-width: 600px) {
 .box{
-  /* margin-right: 30px; */
-  /* padding: 20px; */
+  margin-right: 100px; 
+   padding: 20px; 
 }
+.inner-par {
+  text-align: justify;
+
+}
+.inner-con p{ 
+  text-align: justify;
+  margin-top: 5px;
+  
+}
+
 }
 
 .section-title .new{

@@ -11,7 +11,7 @@ import face from '../img/facebook.png'
 import twitter from '../img/twitter (2).png'
 
 const Footer = () => {
-    const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState('');
 
   const handleLinkClick = (event, content) => {
@@ -130,7 +130,7 @@ cd
         
       </Container>
       <div className="copyright">
-            <p className='text-center'><span><i class="bi bi-c-circle"></i></span>Copyright @ MrDistribution</p>
+            <p className='text-center fw-bold mt-2'><span><i class="bi bi-c-circle"></i></span>Copyright @ MrDistribution</p>
         </div>
     </div>
   )

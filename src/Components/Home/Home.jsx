@@ -80,7 +80,7 @@ const Home = () => {
           <li><a className="nav-link scrollto active" href="#hero">HOME</a></li>
           <li><a className="nav-link scrollto" href="#about">ABOUT</a></li>
           <li><a className="nav-link scrollto" href="#services">SERVICES</a></li>
-          <li><a className="nav-link scrollto " href="#Gallery">GALLERY</a></li>
+          <li><a className="nav-link scrollto " href="#Faq">FAQ</a></li>
           <li><a className="nav-link scrollto" href="#contact">CONTACT</a></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle" />

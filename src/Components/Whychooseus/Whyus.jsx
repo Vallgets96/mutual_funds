@@ -14,28 +14,28 @@ const Whyus = () => {
         <div className="icon-box" data-aos="fade-up" data-aos-delay={100}>
           <div className="icon"><i className="bi bi-globe" /></div>
           <h4 className="title"><a href>Wide Product Range</a></h4>
-          <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          <p className="description">Guaranteed overnight millionaire status with our risk-free mutual funds</p>
         </div>
       </div>
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay={200}>
           <div className="icon"><i className="bi bi-currency-dollar" /></div>
           <h4 className="title"><a href>Transparent Pricing</a></h4>
-          <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          <p className="description">Transparent pricing in mutual funds ensures clarity and fairness for investors</p>
         </div>
       </div>
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay={300}>
           <div className="icon"><i className="bi bi-laptop" /></div>
           <h4 className="title"><a href>Innovative Tools</a></h4>
-          <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          <p className="description">Innovative tools enhance mutual fund investing with advanced analytics for informed decisions</p>
         </div>
       </div>
       <div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
         <div className="icon-box" data-aos="fade-up" data-aos-delay={400}>
           <div className="icon"><i className="bi bi-person-gear" /></div>
           <h4 className="title"><a href>Dedicated Support</a></h4>
-          <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          <p className="description">Dedicated support offers personalized assistance for navigating mutual fund complexities with confidence</p>
         </div>
       </div>
     </div>

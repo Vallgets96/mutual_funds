@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Style.css'
-import founder from '../img/founder.png'
+import founder from '../img/Founders3.jpg'
 import ceo from '../img/ceo.png'
 import dir from '../img/dir.jpg'
 const Aboutus = () => {
@@ -17,13 +17,13 @@ const Aboutus = () => {
       <div className="col-lg-6 align-content-center justify-content-center text-center" data-aos="fade-right" data-aos-delay={100}>
         <img src={founder} className="img-fluid founder" alt />
       </div>
-      <div className="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay={100}>
+      <div className="inner-con col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay={100}>
         <h3>OUR MISSION AND VISION</h3>
-        <p className>
+        <p >
           Our mission is to help investors achieve their financial goals by utilizing prudent investment strategies and an unwavering commitment to excellence. 
           Three key pillars that define our mission are Financial Empowerment, Expert Advice, Trust, and Transparency.
         </p>
-        <p className>
+        <p> 
           Our vision is to be the driving force behind a society in which every person, regardless of background, can confidently navigate the path to financial success. 
         </p>
         <ul>
@@ -31,15 +31,15 @@ const Aboutus = () => {
             <img className="ceo" src={ceo} />
             <div className='cont'>
               <h4>Our Beloved Founder / R.Mohanraj, B.Com	</h4>
-              <p>
+              <p className='inner-par'>
                 Our founder Mr. Mohanraj has more than 20 years of expertise in the mutual funds and investment fields. He has helped in elevating the financial lifestyle of many clients throughout his journey</p>
             </div>
           </li>
           <li>
             <img className="ceo" src={dir} />
-            <div >
-              <h4 className='cont'>Our Director / Shrinidhi M R, BBA.</h4>
-              <p>Our Next-gen Director Shrinidhi M R has been in this field for more than 2 years.⁠ Both Mr. Mohanraj and Ms.Shrinidhi are AMFI-registered Mutual Fund distributors. Shrinidhi has also completed a Certified Retirement Goal planner and is also pursuing her CFP(certified Financial planner).
+            <div className='cont' >
+              <h4 >Our Director / Shrinidhi M R, BBA.</h4>
+              <p className='inner-par'>Our Next-gen Director Shrinidhi M R has been in this field for more than 2 years.⁠ Both Mr. Mohanraj and Ms.Shrinidhi are AMFI-registered Mutual Fund distributors. Shrinidhi has also completed a Certified Retirement Goal planner and is also pursuing her CFP(certified Financial planner).
               </p>
             </div>
           </li>
