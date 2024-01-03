@@ -1,0 +1,42 @@
+.content-1 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.owner-img {
+  width: 70%;
+}
+.owner-img-2 {
+  width: 70%;
+  margin-left: 160px;
+}
+.content-2 {
+  width: 85%;
+  margin: 0 auto;
+}
+.owner-para {
+  text-align: justify;
+}
+.owner-head {
+  margin-top: 30px;
+  font-weight: bolder;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .owner-img {
+    margin-left: 8vh;
+    width: 200px;
+  }
+  .owner-img-2 {
+    margin-left: 8vh;
+    width: 200px;
+  }
+  .owner-para {
+    text-align: justify;
+  }
+  .owner-head {
+    text-align: center;
+  }
+}

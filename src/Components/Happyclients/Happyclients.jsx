@@ -1,11 +1,11 @@
-import React from 'react';
-import CountUp from 'react-countup';
-import '../Style.css';
+import React from "react";
+import CountUp from "react-countup";
+import "../Style.css";
 
 const Happyclients = () => {
   return (
     <div>
-      <section id="counts" className="counts">
+      {/* <section id="counts" className="counts">
         <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-3 col-md-6">
@@ -42,6 +42,74 @@ const Happyclients = () => {
                 <h4>
                   <CountUp start={0} end={15} duration={1} />
                 </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section id="stats" className="stats">
+        <img src={require("../img/paper.jpg.crdownload")} data-aos="fade-in" />
+
+        <div
+          class="container position-relative"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                >
+                  {" "}
+                  100{" "}
+                </span>
+                <p>Clients</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="521"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                >
+                  100
+                </span>
+                <p>Projects</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1453"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                >
+                  100
+                </span>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="32"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                >
+                  100
+                </span>
+                <p>Workers</p>
               </div>
             </div>
           </div>

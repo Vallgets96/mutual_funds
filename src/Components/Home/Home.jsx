@@ -56,28 +56,28 @@ const Home = () => {
     <>
       <section id="topbar" className="d-flex align-items-center">
         <div className="container d-flex justify-content-center justify-content-md-between">
-          <div className="contact-info d-flex align-items-center">
+          <div className="contact-info d-flex align-items-center" id="contact">
             <i className="bi bi-envelope d-flex align-items-center">
               <a href="mailto:contact@example.com">
-                Mrdistributionservicescbe@gmail.com
+                mrdistributionservicescbe@gmail.com
               </a>
             </i>
             <i className="bi bi-phone d-flex align-items-center ms-4">
-              <span> 0422 4369618</span>
+              <span> 04224 369618</span>
             </i>
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
-            <a href="#" className="twitter">
-              <i className="bi bi-twitter" />
+            <a href="https://twitter.com/" className="twitter">
+              <i class="bi bi-twitter-x"></i>
             </a>
-            <a href="#" className="facebook">
+            <a href="https://www.facebook.com/" className="facebook">
               <i className="bi bi-facebook" />
             </a>
-            <a href="#" className="instagram">
+            <a
+              href="https://www.instagram.com/reel/C1b-SoYN7Zq/?igsh=MW1ybDEwc2QyaHRoMw=="
+              className="instagram"
+            >
               <i className="bi bi-instagram" />
-            </a>
-            <a href="#" className="linkedin">
-              <i className="bi bi-linkedin" />
             </a>
           </div>
         </div>
@@ -93,12 +93,12 @@ const Home = () => {
           <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <a className="nav-link scrollto active" href="#hero">
+                <a className="nav-link scrollto" href="#hero">
                   HOME
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#about">
+                <a className="nav-link scrollto" href="#owner">
                   ABOUT
                 </a>
               </li>
@@ -122,23 +122,36 @@ const Home = () => {
           </nav>
         </div>
       </header>
-      <section id="hero" className="d-flex align-items-center fluid">
-        <div className="container" data-aos="zoom-out" data-aos-delay={100}>
-          <h1>
-            Welcome to <span>MR DISTRIBUTION</span>
-          </h1>
-          <h2>Your Path to Financial Success Starts Here.</h2>
-          <div className="d-flex">
-            <a href="#contact" className="btn-get-started scrollto">
-              Get Started
-            </a>
-            <a
-              href="https://youtu.be/PbldLCsspgE?si=Fqr4ktdcEmXtbgXk"
-              className="glightbox btn-watch-video"
-            >
-              <i className="bi bi-play-circle" />
-              <span>Watch Video</span>
-            </a>
+
+      <section id="hero" className="hero">
+        <img src={require("../img/hero-bg.jpg")} data-aos="fade-in" />
+
+        <div class="container">
+          <div class="row" id="mr">
+            <div class="col-lg-10">
+              <h2
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="mt-5 text-light"
+                id="font"
+              >
+                Welcome to MR Distribution
+              </h2>
+              <p data-aos="fade-up" data-aos-delay="200">
+                Your Path to Financial Success Starts Here.
+              </p>
+            </div>
+            <div class="col-lg-5">
+              <a href="#services">
+                <input
+                  data-aos="fade-up"
+                  type="submit"
+                  className="  mt-5 p-3 btn btn-primary"
+                  value="Get Started"
+                  id="newtitle"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>

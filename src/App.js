@@ -10,21 +10,27 @@ import Faq from "./Components/Faq/Faq";
 import Footer from "./Components/Footer/Footer";
 import Testimonials from "./Components/Testimonial/Testimonial";
 import Mission from "./Components/Mission/Mission";
-
+import DismissibleExample from "./Components/Testimonial/Newtest";
+import Newfooter from "./Components/Footer/Newfooter";
+import Owner from "./Components/Aboutus/Aboutus";
 function App() {
   return (
     <div className="app">
       <Home />
       <Whyus />
       <Mission />
-      <Aboutus />
+      <Owner />
       <Happyclients />
+
       <Service />
+
       <Partner />
       <Faq />
+
+      {/* <DismissibleExample /> */}
       <Testimonials />
       <Contactus />
-      <Footer />
+      <Newfooter />
     </div>
   );
 }
