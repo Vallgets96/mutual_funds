@@ -4,15 +4,18 @@ import Whyus from "./Components/Whychooseus/Whyus";
 import Aboutus from "./Components/Aboutus/Aboutus";
 import Happyclients from "./Components/Happyclients/Happyclients";
 import Service from "./Components/Service/Service";
-import Partner from "./Components/Partner/Partner";
+
 import Contactus from "./Components/Contactus/Contactus";
 import Faq from "./Components/Faq/Faq";
 import Footer from "./Components/Footer/Footer";
 import Testimonials from "./Components/Testimonial/Testimonial";
 import Mission from "./Components/Mission/Mission";
-import DismissibleExample from "./Components/Testimonial/Newtest";
+
 import Newfooter from "./Components/Footer/Newfooter";
 import Owner from "./Components/Aboutus/Aboutus";
+
+import Clients from "./Components/Clients/Clients";
+import Newpartner from "./Components/Partner/NewPartner";
 function App() {
   return (
     <div className="app">
@@ -21,16 +24,13 @@ function App() {
       <Mission />
       <Owner />
       <Happyclients />
-
       <Service />
-
-      <Partner />
+      <Newpartner />
       <Faq />
-
-      {/* <DismissibleExample /> */}
-      <Testimonials />
+      <Clients />
+      {/* <Testimonials /> */}
       <Contactus />
-      <Newfooter />
+      <Footer />
     </div>
   );
 }

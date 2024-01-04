@@ -33,7 +33,7 @@ const Newfooter = () => {
           <div class="row gy-4">
             <div class="col-lg-5 col-md-12 footer-about">
               <a href="#" class="logo d-flex align-items-center">
-                <span>MR Distribution</span>
+                <span className="text-light">MR Distribution</span>
               </a>
               <p>
                 Our mission is to help investors achieve their financial goals
@@ -42,45 +42,56 @@ const Newfooter = () => {
               </p>
 
               <div class="social-links d-flex mt-4">
-                <a href="">
-                  <i class="bi bi-twitter"></i>
+                <a href="https://twitter.com/">
+                  <i class="bi bi-twitter-x"></i>
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/">
                   <i class="bi bi-facebook"></i>
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/reel/C1b-SoYN7Zq/?igsh=MW1ybDEwc2QyaHRoMw==">
                   <i class="bi bi-instagram"></i>
                 </a>
               </div>
             </div>
 
-            <div class="col-lg-2 col-6 footer-links">
+            <div class="col-lg-2 col-6 col-md-3 footer-links">
               <h4>Links</h4>
               <ul>
                 <li>
-                  <a href="#hero">Home</a>
+                  <a href="#hero" className="ho">
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a href="#about">About us</a>
+                  <a href="#about" className="ho">
+                    About us
+                  </a>
                 </li>
                 <li>
-                  <a href="services">Service</a>
+                  <a href="services" className="ho">
+                    Service
+                  </a>
                 </li>
                 <li>
-                  <a href="#faq">FAQ's</a>
+                  <a href="#faq" className="ho">
+                    FAQ's
+                  </a>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <a href="#contact" className="ho">
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
 
-            <div class="col-lg-2 col-6 footer-links">
+            <div class="col-lg-2 col-6 col-md-3 footer-links">
               <h4>GuideLines</h4>
               <ul>
                 <li>
                   <a
                     href="."
+                    className="ho"
                     onClick={(e) => {
                       e.preventDefault();
                       handleShowTerms();
@@ -92,6 +103,7 @@ const Newfooter = () => {
                 <li>
                   <a
                     href="."
+                    className="ho"
                     onClick={(e) => {
                       e.preventDefault();
                       handleShowPrivacy();
@@ -103,6 +115,7 @@ const Newfooter = () => {
                 <li>
                   <a
                     href="."
+                    className="ho"
                     onClick={(e) => {
                       e.preventDefault();
                       handleShowDisclaimer();
@@ -114,23 +127,33 @@ const Newfooter = () => {
               </ul>
             </div>
 
-            <div class="col-lg-2 col-6 footer-links ms-5">
-              <h4>Important Links</h4>
-              <ul>
+            <div class="col-lg-2 col-6 col-md-6 footer-links ms-5" id="foote">
+              <h4 className="cent">Important Links</h4>
+              <ul className="cent">
                 <li>
-                  <a href="#">RBI</a>
+                  <a href="https://www.rbi.org.in/" className="ho">
+                    RBI
+                  </a>
                 </li>
                 <li>
-                  <a href="#">SEBI</a>
+                  <a href="https://www.sebi.gov.in/" className="ho">
+                    SEBI
+                  </a>
                 </li>
                 <li>
-                  <a href="#">BSE</a>
+                  <a href="https://www.bseindia.com/" className="ho">
+                    BSE
+                  </a>
                 </li>
                 <li>
-                  <a href="#">NSE</a>
+                  <a href="http://www.nseindia.com/" className="ho">
+                    NSE
+                  </a>
                 </li>
                 <li>
-                  <a href="#">AMFI</a>
+                  <a href="https://www.amfiindia.com/" className="ho">
+                    AMFI
+                  </a>
                 </li>
               </ul>
             </div>

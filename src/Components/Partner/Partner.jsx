@@ -10,6 +10,7 @@ import star from "../img/star.jpg";
 import bajaj from "../img/images.png";
 import icici from "../img/icici-bank-vector-logo.png";
 import sbi from "../img/SBI-Logo.png";
+import sriram from "../img/sundaramhome.png";
 
 const Partner = () => {
   var settings = {
@@ -91,6 +92,9 @@ const Partner = () => {
               </div>
               <div className="partner-box">
                 <img className="partner-logo" src={icici} alt="" srcset="" />
+              </div>
+              <div className="partner-box">
+                <img className="partner-logo" src={sriram} alt="" srcset="" />
               </div>
             </Slider>
           </div>

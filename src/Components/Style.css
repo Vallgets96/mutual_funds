@@ -1965,12 +1965,10 @@ section {
   width: 95%;
   margin: 0 auto;
 }
-.foot-col {
-  /* text-align: justify; */
-}
 .footer-logo {
   width: 100%;
 }
+
 .company-name {
   font-weight: bolder;
   width: 200px;
@@ -2081,6 +2079,9 @@ ul {
     width: 100%;
     text-align: center;
   }
+  #foote {
+    margin-right: 4000px;
+  }
 }
 
 @media (max-width: 806px) {
@@ -2094,6 +2095,12 @@ ul {
     margin: 0 10px;
     width: 100%;
     text-align: center;
+  }
+  .footer-links {
+    margin-left: 0;
+  }
+  #foote {
+    margin-right: -140px;
   }
 }
 
@@ -2354,4 +2361,14 @@ ul {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+}
+
+.ho:hover {
+  text-decoration: underline;
+}
+
+/*---Qupte*/
+
+.quote {
+  color: #111e6c;
 }
