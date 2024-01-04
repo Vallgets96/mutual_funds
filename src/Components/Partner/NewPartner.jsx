@@ -13,7 +13,7 @@ function Newpartner() {
   return (
     <>
       <div className="section-title">
-        <h2>Partners</h2>
+        <h2>Our Partners</h2>
         <h3>
           Powering <span> Prosperity Together</span>
         </h3>

@@ -110,7 +110,7 @@ const Testimonials = () => {
 
       <Slider {...sliderSettings}>
         {testimonials.map((testimonial, index) => (
-          <div className="box" key={index}>
+          <div className="box"  key={index}>
             <i className="fas fa-quote-left quote"></i>
             <p>{testimonial.quote}</p>
             <div className="content">

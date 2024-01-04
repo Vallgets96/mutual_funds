@@ -48,7 +48,7 @@ const Happyclients = () => {
         </div>
       </section> */}
       <section id="stats" className="stats">
-        <img src={require("../img/paper.jpg.crdownload")} data-aos="fade-in" />
+        <img src={require("../img/paper.jpg.crdownload")}  />
 
         <div
           class="container position-relative"
@@ -65,7 +65,7 @@ const Happyclients = () => {
                   class="purecounter"
                 >
                   {" "}
-                  100{" "}
+                  243{" "}
                 </span>
                 <p>Clients</p>
               </div>
@@ -79,7 +79,7 @@ const Happyclients = () => {
                   data-purecounter-duration="1"
                   class="purecounter"
                 >
-                  100
+                  386
                 </span>
                 <p>Projects</p>
               </div>
@@ -93,7 +93,7 @@ const Happyclients = () => {
                   data-purecounter-duration="1"
                   class="purecounter"
                 >
-                  100
+                  24
                 </span>
                 <p>Hours Of Support</p>
               </div>
@@ -107,7 +107,7 @@ const Happyclients = () => {
                   data-purecounter-duration="1"
                   class="purecounter"
                 >
-                  100
+                  18
                 </span>
                 <p>Workers</p>
               </div>

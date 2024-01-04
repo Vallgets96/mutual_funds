@@ -81,7 +81,7 @@ const Faq = () => {
                     <p>
                       Step 1: Open an Account with our MR distributors.
                       <br />
-                      Step 2: read the prospectus carefully which contains
+                      Step 2: Read the prospectus carefully which contains
                       (investor objectives, risks, Fee table, and shareholder
                       information)
                       <br />
@@ -126,7 +126,7 @@ const Faq = () => {
                     href="#faq5"
                     className="collapsed question"
                   >
-                    Important considerations in Mutual Funds?{" "}
+                    Mention the considerations in Mutual Funds.{" "}
                     <i className="bi bi-chevron-down icon-show" />
                     <i className="bi bi-chevron-up icon-close" />
                   </div>
@@ -138,7 +138,7 @@ const Faq = () => {
                     <p>
                       MR Distributors adhere to SEBI regulations for fees.
                       Recognize potential financial consequences when selling
-                      mutual funds, especially for long-term holdings. Timing of
+                      mutual funds, especially for long-term holdings.<br/> Timing of
                       the Market: Mutual fund prices are based on the NAV at the
                       end of the trading day. Unlike stocks, you can't place
                       real-time market orders. Consider these factors.

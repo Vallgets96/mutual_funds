@@ -7,7 +7,7 @@ const Service = () => {
       <section id="services" className="services">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>Services</h2>
+            <h2>Our Services</h2>
             <h3>
               Ignite <span> Your Investments</span>
             </h3>

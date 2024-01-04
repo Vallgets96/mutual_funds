@@ -1,25 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 import { IoIosQuote } from "react-icons/io";
-import { AiOutlineStar } from "react-icons/ai";
+import { FaStar } from "react-icons/fa";
 import "../Style.css";
 
 const ClientSlider = (props) => {
   const { name, position, img_url, stars, disc } = props.item;
   return (
-    <Container className="border shadow rounded">
+    <Container className="border shadow rounded" >
       <Header>
         <div>
           {Array(stars)
             .fill()
             .map((_, i) => (
-              <span className="star" key={i}>
-                <AiOutlineStar />
+              <span className="star"  key={i}>
+                <FaStar />
               </span>
             ))}
         </div>
       </Header>
-      <Body>{disc}</Body>
+      <Body style={{ fontFamily: "" }}>{disc}</Body>
       <Footer>
         <img src={img_url} alt={name} />
         <div className="details">
@@ -53,7 +53,7 @@ const Header = styled.div`
   }
 
   .star {
-    color: #ffcd3c;
+    color: #ffc400f1;
     font-size: 1.3rem;
   }
 `;

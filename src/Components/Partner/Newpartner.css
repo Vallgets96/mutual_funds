@@ -12,5 +12,15 @@
 }
 
 .image_wrapper img {
-  width: 55%;
+  width: 50%;
+}
+@media screen and (max-width: 500px) {
+  .image_wrapper img {
+    width: 30%;
+  }  
+}
+@media screen and (max-width: 780px) {
+  .image_wrapper img {
+    width: 40%;
+  }  
 }

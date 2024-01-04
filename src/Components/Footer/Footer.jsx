@@ -204,27 +204,35 @@ const Footer = () => {
               {/* Render different content based on the modalContent state */}
               {modalContent === "Terms & Conditions" && (
                 <p style={{ color: "black" }}>
-                  <h6>Eligibility:</h6>
+                  <h5>Eligibility:</h5>
                   By accessing and using our mutual fund services, you affirm
                   that you are eligible to enter into a legally binding contract
                   as per the applicable laws of Tamil Nadu.
-                  <h6>Investment Risks:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Investment Risks:</h5>
                   Investing in mutual funds involves risks, and past performance
                   is not indicative of future results. Investors should
                   carefully consider their investment objectives and consult
                   with financial advisors before making any investment
                   decisions.
-                  <h6>Account Security:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Account Security:</h5>
                   Users are responsible for maintaining the security of their
                   account credentials. The mutual fund company shall not be
                   liable for any unauthorized access or transactions resulting
                   from the user's failure to protect their account information.
-                  <h6>Fees and Charges:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Fees and Charges:</h5>
                   Details regarding fees, charges, and expenses associated with
                   mutual fund investments are available in the offer documents.
                   Investors should review these documents carefully before
                   making investment decisions.
-                  <h6>Redemption and Withdrawals:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Redemption and Withdrawals:</h5>
                   Investors may redeem their mutual fund units as per the terms
                   specified in the offer documents. The company reserves the
                   right to suspend redemptions under certain circumstances as
@@ -233,28 +241,36 @@ const Footer = () => {
               )}
               {modalContent === "Privacy Policy" && (
                 <p style={{ color: "black" }}>
-                  <h6>Information Collection:</h6>
+                  <h5>Information Collection:</h5>
                   The company collects personal information from investors for
                   the purpose of managing mutual fund investments. This includes
                   but is not limited to, name, contact details, and financial
                   information. The company adheres to the privacy laws of Tamil
                   Nadu in collecting and processing this information.
-                  <h6>Information Sharing:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Information Sharing:</h5>
                   The company may share personal information with regulatory
                   authorities, service providers, or as required by law.
                   Personal information is treated confidentially, and adequate
                   safeguards are implemented to protect against unauthorized
                   access.
-                  <h6>Cookies and Tracking:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Cookies and Tracking:</h5>
                   The company may use cookies and other tracking technologies to
                   enhance user experience on the website. Users can control
                   cookie preferences through their browser settings.
-                  <h6>Security Measures:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Security Measures:</h5>
                   The company employs industry-standard security measures to
                   protect the personal information of investors. However, no
                   data transmission over the internet can be guaranteed to be
                   completely secure, and users acknowledge this risk.
-                  <h6>Updates to Privacy Policy:</h6>
+                  <br/>
+                  <br/>
+                  <h5>Updates to Privacy Policy:</h5>
                   The privacy policy may be updated from time to time to reflect
                   changes in legal requirements or business practices. Users
                   will be notified of any significant changes. By using our
@@ -297,7 +313,7 @@ const Footer = () => {
                   Distributions disclaim any warranties with respect to any
                   results that may be obtained from the use of this site.
                   <br></br>
-                  cd
+      
                 </p>
               )}
             </Modal.Body>
@@ -314,7 +330,7 @@ const Footer = () => {
           <span>
             <i class="bi bi-c-circle"></i>
           </span>
-          Copyright @ MrDistribution
+          Copyright @ MrDistributionServices
         </p>
       </div>
     </div>

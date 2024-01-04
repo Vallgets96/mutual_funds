@@ -32,7 +32,7 @@ const Contactus = () => {
   };
   return (
     <div>
-      <section id="contact" className="contact">
+      <section id="Contact" className="contact">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>Contact</h2>
@@ -47,18 +47,18 @@ const Contactus = () => {
                 <i class="bi bi-geo-alt-fill"></i>
                 <h3>Our Address</h3>
                 <p>
-                  72(old no.49), 1st Floor, Cowley brown road, R S Puram,
+                  No. 72 (Old No.49), 1st Floor, Cowley Brown Road, R S Puram,
                   Coimbatore-641002
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <a href="mailto:contact@example.com" className="col-lg-3 col-md-6">
               <div className="info-box  mb-4">
                 <i class="bi bi-envelope-at-fill"></i>
                 <h3>Email Us</h3>
-                <p> Mrdistributionservicescbe@gmail.com</p>
+                <p> mrdistributionservicescbe@gmail.com</p>
               </div>
-            </div>
+            </a>
             <div className="col-lg-3 col-md-6">
               <div className="info-box  mb-4">
                 <i class="bi bi-telephone-fill"></i>
