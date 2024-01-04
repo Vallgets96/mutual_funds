@@ -1,11 +1,14 @@
 import React from "react";
 import "../Style.css";
 import logo from "../img/logo.png";
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
+  
+  const [activeLink, setActiveLink] = useState("HOME")
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -43,6 +46,9 @@ const Home = () => {
         callback.call(target, e);
       }
     });
+  };
+  const handleNavClick = (link) => {
+    setActiveLink(link);
   };
 
   on("click", ".mobile-nav-toggle", function (e) {
@@ -86,37 +92,67 @@ const Home = () => {
         <div className="container d-flex align-items-center justify-content-between">
           <h1 className="logo">
             <a href="#hero">
-              <img className="logo" src={logo} />
+              <img className="logo" src={logo} alt="Logo" />
             </a>
           </h1>
-          {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>*/}
           <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <a className="nav-link scrollto" href="#hero">
+                <a
+                  className={`nav-link scrollto ${
+                    activeLink === "HOME" ? "active" : ""
+                  }`}
+                  href="#hero"
+                  onClick={() => handleNavClick("HOME")}
+                >
                   HOME
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#owner">
+                <a
+                  className={`nav-link scrollto ${
+                    activeLink === "ABOUT" ? "active" : ""
+                  }`}
+                  href="#owner"
+                  onClick={() => handleNavClick("ABOUT")}
+                >
                   ABOUT
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#services">
+                <a
+                  className={`nav-link scrollto ${
+                    activeLink === "SERVICES" ? "active" : ""
+                  }`}
+                  href="#services"
+                  onClick={() => handleNavClick("SERVICES")}
+                >
                   SERVICES
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto " href="#Faq">
+                <a
+                  className={`nav-link scrollto ${
+                    activeLink === "FAQ" ? "active" : ""
+                  }`}
+                  href="#Faq"
+                  onClick={() => handleNavClick("FAQ")}
+                >
                   FAQ
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#contact">
+                <a
+                  className={`nav-link scrollto ${
+                    activeLink === "CONTACT" ? "active" : ""
+                  }`}
+                  href="#Contact"
+                  onClick={() => handleNavClick("CONTACT")}
+                >
                   CONTACT
                 </a>
               </li>
+              {/* ... (repeat for other navigation links) */}
             </ul>
             <i className="bi bi-list mobile-nav-toggle" />
           </nav>
