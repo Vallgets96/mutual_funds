@@ -4,43 +4,36 @@ import styled from "styled-components";
 import ClientSlider from "./ClientSlider";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Slide } from "react-awesome-reveal";
-
+import Guna from "./Images/guna.jpeg";
+import Naveen from "./Images/naveen.jpeg";
+import Mothee from "./Images/momo.jpg";
+import Rahul from "./Images/rahul.png";
 let clients = [
   {
-    name: "John Michel",
-    position: "web developer",
-    img_url:
-      "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    name: "Guna",
+    img_url: Guna,
     stars: 3,
-    disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
+    disc: `Mutual funds have truly democratized wealth creation. With minimal effort, I have witnessed my money grow steadily, thanks to the smart and strategic approach of professional fund managers.`,
   },
   {
-    name: "John Michel",
-    position: "web developer",
-    img_url:
-      "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    name: "Mothee",
+
+    img_url: Mothee,
     stars: 4,
-    disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
+    disc: `Choosing mutual funds was the best decision for my financial goals. The transparency, flexibility, and impressive returns have made it a reliable avenue, aligning perfectly with my long-term investment strategy.`,
   },
   {
-    name: "John Michel",
-    position: "web developer",
-    img_url:
-      "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    name: "Naveen Raj",
+
+    img_url: Naveen,
     stars: 5,
-    disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
+    disc: `Ive found my financial partner in mutual funds. The diverse portfolio options and expert guidance have not only grown my wealth but also provided peace of mind in the ever-changing market`,
   },
   {
-    name: "John Michel",
-    position: "web developer",
-    img_url:
-      "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+    name: "Rahul",
+    img_url: Rahul,
     stars: 5,
-    disc: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`,
+    disc: `Investing in mutual funds has been a game-changer for me. The consistent returns and professional management have not only secured my financial future but also made the investment journey stress-free.`,
   },
 ];
 var settings = {

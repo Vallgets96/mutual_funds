@@ -19,7 +19,7 @@ const ClientSlider = (props) => {
             ))}
         </div>
       </Header>
-      <Body>{disc}</Body>
+      <Body style={{ fontFamily: "" }}>{disc}</Body>
       <Footer>
         <img src={img_url} alt={name} />
         <div className="details">

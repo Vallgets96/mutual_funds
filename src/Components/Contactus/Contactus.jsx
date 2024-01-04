@@ -32,7 +32,7 @@ const Contactus = () => {
   };
   return (
     <div>
-      <section id="contact" className="contact">
+      <section id="Contact" className="contact">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>Contact</h2>

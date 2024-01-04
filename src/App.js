@@ -16,12 +16,13 @@ import Owner from "./Components/Aboutus/Aboutus";
 
 import Clients from "./Components/Clients/Clients";
 import Newpartner from "./Components/Partner/NewPartner";
+import MV from "./Components/Mission/Mission";
 function App() {
   return (
     <div className="app">
       <Home />
       <Whyus />
-      <Mission />
+      <MV />
       <Owner />
       <Happyclients />
       <Service />
