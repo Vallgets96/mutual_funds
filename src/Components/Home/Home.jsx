@@ -373,7 +373,6 @@ import "aos/dist/aos.css";
 
 const Home = () => {
   const [activeLink, setActiveLink] = useState("HOME");
-  const [mobileNavbarOpen, setMobileNavbarOpen] = useState(false);
 
   useEffect(() => {
     AOS.init({
@@ -404,14 +403,26 @@ const Home = () => {
     };
   }, []);
 
+  const on = (event, selector, callback) => {
+    document.addEventListener(event, function (e) {
+      const target = e.target.closest(selector);
+      if (target) {
+        callback.call(target, e);
+      }
+    });
+  };
+
   const handleNavClick = (link) => {
     setActiveLink(link);
-    setMobileNavbarOpen(false); // Close the mobile navbar after clicking a link
+    toggleMobileNavbar(); // Close the mobile navbar after clicking a link
   };
 
   const toggleMobileNavbar = () => {
-    setMobileNavbarOpen(!mobileNavbarOpen);
+    const navbar = document.getElementById("navbar");
+    navbar.classList.toggle("navbar-mobile");
   };
+
+  on("click", ".mobile-nav-toggle", toggleMobileNavbar);
 
   return (
     <>
@@ -450,7 +461,7 @@ const Home = () => {
               <img className="logo" src={logo} alt="Logo" />
             </a>
           </h1>
-          <nav id="navbar" className={`navbar ${mobileNavbarOpen ? 'navbar-mobile' : ''}`}>
+          <nav id="navbar" className="navbar">
             <ul>
               <li>
                 <a
@@ -508,7 +519,7 @@ const Home = () => {
                 </a>
               </li>
             </ul>
-            <i className="bi mobile-nav-toggle" onClick={toggleMobileNavbar}></i>
+            <i className="bi bi-list mobile-nav-toggle" onClick={toggleMobileNavbar} />
           </nav>
         </div>
       </header>
@@ -548,5 +559,4 @@ const Home = () => {
 };
 
 export default Home;
-
 

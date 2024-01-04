@@ -29,7 +29,6 @@ function App() {
       <Newpartner />
       <Faq />
       <Clients />
-      {/* <Testimonials /> */}
       <Contactus />
       <Footer />
     </div>
