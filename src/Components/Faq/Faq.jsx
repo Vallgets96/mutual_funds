@@ -31,8 +31,12 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Fund managers with experience manage investments, applying
-                      their expertise in settling Market complexities
+                      Mutual funds offer benefits such as professional
+                      management, providing expertise to navigate market
+                      complexities. They offer liquidity, allowing easy buying
+                      and selling. Additionally, they provide accessibility for
+                      individuals with small assets and ensure transparency
+                      through regular reporting.
                     </p>
                   </div>
                 </li>
@@ -52,8 +56,10 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Returns on investments made through mutual funds may
-                      change depending on the state of the market.
+                      Mutual fund risks include market-driven fluctuations in
+                      returns, regulatory impact from tax rule changes, and
+                      liquidity risks due to investments in less liquid assets,
+                      especially during economic downturns.
                     </p>
                   </div>
                 </li>
@@ -81,6 +87,13 @@ const Faq = () => {
                       <br />
                       Step 3: Research the funds based on your investment, goals
                       and time horizon and choose a plan wisely.
+                      <br />
+                      Step 4: Choose payment type: SIP or Lumpsum.
+                      <br />
+                      Step 5: Verify KYC details.
+                      <br />
+                      Step 6: Fill in your PAN card and bank details.
+                      <br />
                     </p>
                   </div>
                 </li>
@@ -100,10 +113,10 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      You can redeem using the online portal or account which
-                      was created by MR distributors. You can choose to sell
-                      some units or all, as per your requirements and confirm
-                      the transactions.
+                      To sell a Mutual Fund, use the online portal created by MR
+                      distributors. Redeem units as needed, choosing partial or
+                      full sale. Confirm transactions online. Alternatively,
+                      visit our office for offline redemption.
                     </p>
                   </div>
                 </li>
@@ -123,10 +136,12 @@ const Faq = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      The fees charged by MR Distributors are regulated by the
-                      Security and Exchange Board of India(SEBI) Recognise the
-                      possible financial consequences of selling mutual funds,
-                      particularly if you have owned them for a long time.
+                      MR Distributors adhere to SEBI regulations for fees.
+                      Recognize potential financial consequences when selling
+                      mutual funds, especially for long-term holdings. Timing of
+                      the Market: Mutual fund prices are based on the NAV at the
+                      end of the trading day. Unlike stocks, you can't place
+                      real-time market orders. Consider these factors.
                     </p>
                   </div>
                 </li>
