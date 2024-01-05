@@ -17,9 +17,28 @@ import Owner from "./Components/Aboutus/Aboutus";
 import Clients from "./Components/Clients/Clients";
 import Newpartner from "./Components/Partner/NewPartner";
 import MV from "./Components/Mission/Mission";
+import { useState,useEffect } from "react";
+import ClipLoader from "react-spinners/ClipLoader";
+
 function App() {
+const [loading,setLoading] = useState(false)
+useEffect(()=>{
+  setLoading(false)
+  setTimeout(()=>{
+    setLoading(false)
+  },5000)
+},[])
+
   return (
     <div className="app">
+    {
+      loading?
+      <ClipLoader
+        color={'#111e6c'}
+        loading={loading}
+        size={150}
+      
+      />:<div>
       <Home />
       <Whyus />
       <MV />
@@ -30,7 +49,10 @@ function App() {
       <Faq />
       <Clients />
       <Contactus />
-      <Footer />
+      <Newfooter/>
+      </div>
+    }
+      
     </div>
   );
 }

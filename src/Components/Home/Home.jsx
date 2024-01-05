@@ -370,7 +370,7 @@
 import React, { useEffect, useState } from "react";
 import "../Style.css";
 import logo from "../img/logo.png";
-
+import hero from "../img/hero-bg.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -537,7 +537,7 @@ const Home = () => {
       </header>
 
       <section id="hero" className="hero">
-        <img src={require("../img/hero-bg.jpg")} data-aos="fade-in" />
+        <img src={hero} alt="landing" data-aos="fade-in" />
 
         <div className="container">
           <div className="row" id="mr">
